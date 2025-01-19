@@ -1,0 +1,20 @@
+h1 {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: lightyellow;
+}
+
+img {
+    padding: 10px;
+    margin-right: 20px;
+    border: 3px solid darkblue;
+    display: inline-block;
+    width: 200px;
+}
