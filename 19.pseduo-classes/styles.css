@@ -1,0 +1,26 @@
+/* Default button style */
+.btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Change button color on hover */
+.btn:hover {
+    background-color: #2ecc71;
+}
+/* Style the button when it's clicked (active) */
+.btn:active {
+    background-color: #e74c3c;
+}
+/* Style the first item in the list */
+ul li:first-child {
+    font-weight: bold; 
+}
+/* Style every odd item in the list */
+ul li:nth-child(odd) {
+    background-color: #f0f0f0; 
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Take up more space on tablet screens */
+        padding: 15px;
+    }
+}
+/* Media Query for Phones (max-width 480px) */
+@media (max-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+    .container {
+        width: 100%; 
+        padding: 10px;
+    }
+}

@@ -1,0 +1,23 @@
+
+.big-shelf {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+.small-shelf {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    background-color: lightblue;
+    padding: 10px;
+    width: 100px;
+}
+.item {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
